@@ -87,6 +87,16 @@ class LinkedList:
 
 linked_list = LinkedList()
 
+# Mixed
+linked_list.add_to_head(1)
+linked_list.add_to_tail(2)
+linked_list.add_to_head(3)
+linked_list.add_to_head(4)
+linked_list.add_to_tail(5)
+linked_list.add_to_head(6)
+linked_list.print_list()
+
+
 # Add to head only
 # linked_list.add_to_head(1)
 # linked_list.add_to_head(2)
@@ -96,13 +106,7 @@ linked_list = LinkedList()
 # linked_list.add_to_head(6)
 # linked_list.print_list()
 
-# Mixed
-# linked_list.add_to_head(1)
-# linked_list.add_to_tail(2)
-# linked_list.add_to_head(3)
-# linked_list.add_to_head(4)
-# linked_list.add_to_tail(5)
-# linked_list.add_to_head(6)
+
 
 # Test None Next
 # linked_list.add_to_head(1)
@@ -124,15 +128,12 @@ linked_list = LinkedList()
 # print(linked_list.contains(10))
 
 # Remove Head
-linked_list.add_to_tail(10)
-linked_list.add_to_tail(20)
-
-print(linked_list.remove_head())
-
-print(linked_list.contains(10))
-linked_list.remove_head()
-
-print(linked_list.contains(20))
+# linked_list.add_to_tail(10)
+# linked_list.add_to_tail(20)
+# print(linked_list.remove_head())
+# print(linked_list.contains(10))
+# linked_list.remove_head()
+# print(linked_list.contains(20))
 
 # print(linked_list.head.value)
 # print(linked_list.head.get_next().value)
